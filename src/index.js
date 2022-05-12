@@ -10,15 +10,13 @@ import Grammar from "./routes/Grammar/Grammar"
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
-      <App />
-      {/* <Routes>
+    <HashRouter>
+      <Routes>
         <Route path="/" element={<App />} />
-        <Route path="grammar" element={<Grammar />} />
-        <Route path="visualisation" element={<App />} />
-      </Routes> */}
-      {/*  */}
-    </BrowserRouter>
+        {/* <Route path="grammar" element={<Grammar />} />
+        <Route path="visualisation" element={<App />} /> */}
+      </Routes>
+    </HashRouter>
   </React.StrictMode>
 );
 
