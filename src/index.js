@@ -5,6 +5,7 @@ import './index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Routes, Route } from "react-router-dom"
+import Grammar from "./routes/Grammar/Grammar"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
